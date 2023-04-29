@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans';
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #3C486B;
+}
+
+#header-nav {
+  background-color: #F0F0F0;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: rgb(60, 72, 107, 0.3) ;
+}
+
+.navbar-collapse {
+  border-top: 1px solid;
+}
+
+.navbar-brand h1 { 
+  color: #3C486B;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.dropdown-menu .dropdown-item {
+  text-align: left;
+  background-color: aqua;
+  }
+
+#nav-list {
+  padding: 0;
+}
+#nav-list a {
+  text-align: center;
+  color: #3C486B;
+}
+#nav-list a:hover {
+  background: #F45050;
+  color: #F0F0F0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #3C486B;
+}
+
+h1{
+  font-size: 175%;
+  color: #F0F0F0;
+  padding-bottom: 20px;
+}
+
+section {
+  padding: 5px;
+  padding-bottom: 30px;
+}
+
+section div {
+  background-color: #F0F0F0;
+}
+  
+section p{
+  clear: both;
+  padding: 15px;
+  margin: 0 0 0 0;
+  background-color: #F0F0F0;
+  color: #3C486B;
+}
+
+section a{
+  padding: 15px auto 15px;
+  font-size: 1.15em;
+  font-weight: bold;
+  color: #000000;
+}
+
+section a:hover{
+  text-decoration: none;
+  color: #000000;
+}
+
+.title {
+  width: 100%;
+  padding: 5px;
+  margin-top: -15px;
+  margin-bottom: 5px;
+  background-color: #F45050;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bolder;
+  color: #F0F0F0;
+}
+
